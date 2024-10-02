@@ -7,9 +7,11 @@
 }
 
 body {
-    background-color: #000;
-    color: #fff;
-}
+    background-image: url('bg.png');
+    background-size: cover; /* Cover the entire element */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Don't repeat the image */
+  }
 
 main {
     height: 100vh;
