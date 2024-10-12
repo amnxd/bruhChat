@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+    background-color: #191919;
   }
 
 main {
@@ -109,7 +109,16 @@ button {
     padding: .25rem .5rem;
 }
 
-.user-list,
+.user-list{
+    background-color: rgb(174, 243, 174);
+    width: 100%;
+    min-height: 2.65rem;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: .75rem .25rem;
+    border:2px solid #6a82fb;
+    border-radius: 7px;
+}
 .room-list,
 .activity {
     width: 100%;
@@ -122,9 +131,7 @@ button {
 .activity {
     font-style: italic;
 }
-.user-list{
-    background-color: green;
-}
+
 .room-list{
     background-color: violet;
 }
