@@ -1,4 +1,4 @@
-const socket = io('https://chat.thebenevolent.in/')   //ws://localhost:3500
+const socket = io('http://localhost:3500')   //  http://localhost:3500
 
 const msgInput = document.querySelector('#message')
 const nameInput = document.querySelector('#name')
